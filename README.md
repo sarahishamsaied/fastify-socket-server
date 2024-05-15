@@ -12,4 +12,6 @@
    3. Click on import then add api.postman_collection.json
   
 4. How to access Swagger Docs:
-     `http://localhost:3000/docs/`   
+     `http://localhost:3000/docs/`
+
+5. Paste your database URL in `app.ts` 
