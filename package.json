@@ -1,0 +1,33 @@
+{
+  "name": "jatdev-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "nodemon index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^7.0.0",
+    "@fastify/swagger": "^8.14.0",
+    "@fastify/swagger-ui": "^3.0.0",
+    "@types/node": "^20.12.12",
+    "bcrypt": "^5.1.1",
+    "fastify": "^4.27.0",
+    "fastify-cors": "^6.1.0",
+    "fastify-plugin": "^4.5.1",
+    "fastify-static": "^4.7.0",
+    "fastify-swagger": "^5.2.0",
+    "mongoose": "^8.3.4",
+    "ws": "^8.17.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/ws": "^8.5.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
